@@ -38,3 +38,21 @@ for ($i = 0; $i <10; $i++) {
   echo "nilai i $i <br>";
 }
 echo "<br>";
+
+$listmahasiswa = array(
+  "agus",
+  "ari",
+  "ayu",
+  "bima",
+  "lisda",
+  "niko"
+);
+echo $listmahasiswa[2];
+echo "<hr>";
+foreach ($listmahasiswa as $v) {
+    echo "nama nahasiswa : $v </br>";
+}
+echo count($listmahasiswa);
+for ($i = 0; $i < 5; $i++) {
+  echo "nama" . $listmahasiswa[$i] . "</br>";
+}
